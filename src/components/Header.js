@@ -43,7 +43,6 @@ class Header extends React.Component {
                 <Nav.Link href="#marketplace">Marketplace</Nav.Link>
               </Nav>
               <div className="btn-container">
-                
                 <Button className="btn-connect">Connect Wallet<div className="figure"></div></Button>
               </div>
             </Navbar.Collapse>

@@ -20,4 +20,57 @@
     opacity: 0.5;
     padding: 2rem 7rem;
   }
+
+  .btn-container{
+    position:relative;
+    padding: 20px;
+
+    .btn-primary:not(:disabled):not(.disabled).active:focus, .btn-primary:not(:disabled):not(.disabled):active:focus, .show>.btn-primary.dropdown-toggle:focus, .btn-primary.focus, .btn-primary:focus{
+      box-shadow: none;
+    }
+
+    .btn-connect{
+      position: relative;
+      background: url('../img//button-bg.png'),linear-gradient( 135deg, transparent 8px, #ff679e 5%,#F4246F 94%, transparent 10%);
+      text-transform: uppercase;
+      border: none;
+      border-radius: 0;
+      background-size: cover;
+      background-position: center;
+      background-position-y: center;
+      width: 105px;
+    
+      .figure{
+        position: absolute;
+        width: 92%;
+        left: 0px;
+        box-shadow: 0 10px 20px #f4246f;
+        top: 27px;
+        height: 7px;
+      }
+    }
+
+    .btn-outline-without-corner{
+      position: relative;
+      height: 36px;
+      width: 105px;
+      background-size: cover;
+      -webkit-clip-path: polygon(10px 0%, calc(100% - 10px) 0%, 100% 10px, 100% calc(100% - 10px), calc(100% - 10px) 100%, 10px 100%, 0% calc(100% - 10px), 0% 10px);
+      clip-path: polygon(15% 0%, calc(100%) 0%, 100% calc(100% - 40%), calc(100% - 15%) 100%, 0% calc(100%), 0% 40%);
+      border: 1px solid #f64685;
+
+      &.btn-primary{
+        background-color: transparent!important;
+      }
+    }
+
+    .figure{
+      position: absolute;
+      width: 60%;
+      left: 20px;
+      box-shadow: 0 15px 15px #f4246f;
+      top: 48px;
+      height: 5px;
+    }
+  }
 }
