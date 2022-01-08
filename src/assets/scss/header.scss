@@ -6,13 +6,24 @@
   padding: 0 16px;
   height: 80px;
   width: 100%;
+  z-index: 1;
 
   .container{
+
+    .collapsing,.collapse{
+      background: linear-gradient(180deg, #343a40, #424242);
+      margin: 5px;
+      padding: 15px 5px;
+    }
 
     #basic-navbar-nav{
       font-family: Orbitron;
       font-size: .8rem;
       text-transform: uppercase;
+      position: absolute;
+      right: -5px;
+      top: 70%;
+
       .nav-link{
         height: 80px;
         display: flex;
@@ -28,6 +39,7 @@
       .btn-container{
         position:relative;
         padding: 5px;
+        text-align: center;
 
         .btn-primary:not(:disabled):not(.disabled).active:focus, .btn-primary:not(:disabled):not(.disabled):active:focus, .show>.btn-primary.dropdown-toggle:focus, .btn-primary.focus, .btn-primary:focus{
           box-shadow: none;
@@ -42,6 +54,7 @@
           background-size: cover;
           background-position: center;
           background-position-y: center;
+          width: 210px;
         
           .figure{
             position: absolute;

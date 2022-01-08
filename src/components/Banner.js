@@ -18,13 +18,13 @@ class Banner extends React.Component {
     render() {
 
       return (
-        <Row className='banner d-flex align-items-center m-0'>
-          <Col xs={12} sm={5} className="text-center">
-            <div>
+        <Row className='banner d-flex'>
+          <Col xs="12" sm="5" className="text-center">
+            <Row>
               <h1>fight for freedom</h1>
               <h3>Own a fighter, participate in fight, earn tokens and win the glory!</h3>
-            </div>
-            <div className="d-flex justify-content-center">
+            </Row>
+            <Row className="d-flex justify-content-center">
               <div className="btn-container">
                 <Button className="btn-connect">Play now<div className="figure"></div></Button>
               </div>
@@ -32,9 +32,9 @@ class Banner extends React.Component {
                 <Button className="btn-outline-without-corner">Join</Button>
                 <div className="figure"></div>
               </div>
-            </div>
+            </Row>
           </Col>
-          <Col xs={12} sm={5}>
+          <Col xs="12" sm="5">
             img
           </Col>
         </Row>
