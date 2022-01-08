@@ -1,0 +1,73 @@
+.header{
+  background: #2B2C31 0% 0% padding-box;
+  opacity: 1;
+  backdrop-filter: blur(16px);
+  -webkit-backdrop-filter: blur(16px);
+  padding: 0 16px;
+  height: 80px;
+
+  .container{
+
+    #basic-navbar-nav{
+      font-family: Orbitron;
+      font-size: .8rem;
+      text-transform: uppercase;
+      .nav-link{
+        height: 80px;
+        display: flex;
+        align-items: center;
+        letter-spacing: 0.6px;
+        color: #FFFFFF!important;
+        &:hover{
+          color: #131414!important;
+          background-color: white;
+        }
+      }
+
+      .btn-container{
+        position:relative;
+        padding: 5px;
+
+        .btn-primary:not(:disabled):not(.disabled).active:focus, .btn-primary:not(:disabled):not(.disabled):active:focus, .show>.btn-primary.dropdown-toggle:focus, .btn-primary.focus, .btn-primary:focus{
+          box-shadow: none;
+        }
+
+        .btn-connect{
+          position: relative;
+          background: url('../img//button-bg.png'),linear-gradient( 135deg, transparent 8px, #ff679e 5%,#F4246F 94%, transparent 10%);
+          text-transform: uppercase;
+          border: none;
+          border-radius: 0;
+          background-size: cover;
+          background-position: center;
+          background-position-y: center;
+        
+          .figure{
+            position: absolute;
+            width: 92%;
+            left: 0px;
+            box-shadow: 0 10px 20px #f4246f;
+            top: 27px;
+            height: 7px;
+          }
+        }
+      }
+    }
+  
+    .logo{
+        font: normal normal bold 16px/20px Orbitron;
+        letter-spacing: 2.72px;
+        color: #FFFFFF;
+        opacity: 0.98;
+        text-transform: uppercase;
+        display: flex;
+        align-items: center;
+  
+        img{
+          margin-right: 5px;
+        }
+    }
+  }
+}
+
+
