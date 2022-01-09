@@ -6,6 +6,7 @@ import { Container } from 'react-bootstrap';
 
 // Components
 import Landing from './components/Landing';
+import Footer from './components/Footer';
 
 // Css
 import './assets/scss/app.scss';
@@ -23,6 +24,7 @@ class App extends React.Component {
           <Switch> 
             <Route exact path="/" component={Landing} />
           </Switch>
+          <Footer />
       </Container>
     </Router>
     );

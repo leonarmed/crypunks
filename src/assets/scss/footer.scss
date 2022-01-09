@@ -1,0 +1,28 @@
+.footer{
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    height: 60px;
+    width: 100%;
+    background: #343a40b0;
+    -webkit-backdrop-filter: blur(10px);
+    backdrop-filter: blur(10px);
+    color: white;
+
+    .social-container{
+        border-top: 3px solid #f4246f;
+
+        .icons{
+            margin: 12px 0 0 5px;
+        }
+    
+        .figure{
+            position: absolute;
+            width: 100%;
+            left: 0px;
+            box-shadow: 0px 18px 30px #f4246f;
+            top: -4px;
+            height: 6px;
+          }
+    }
+}

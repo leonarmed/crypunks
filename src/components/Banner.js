@@ -1,10 +1,10 @@
 // Library
 import React from 'react';
-import { Row, Col, Button } from 'react-bootstrap';
+import { Row, Col, Button, Image } from 'react-bootstrap';
 
 // Css & Pics
 import '../assets/scss/banner.scss'
-import logo from '../assets/img/ico.png';
+import bot from '../assets/img/bot-header.png';
 
 
 class Banner extends React.Component {
@@ -18,8 +18,9 @@ class Banner extends React.Component {
     render() {
 
       return (
+      <>
         <Row className='banner d-flex'>
-          <Col xs="12" sm="5" className="text-center">
+          <Col xs="12" sm="5" className="text-center l-panel">
             <Row>
               <h1>fight for freedom</h1>
               <h3>Own a fighter, participate in fight, earn tokens and win the glory!</h3>
@@ -34,10 +35,11 @@ class Banner extends React.Component {
               </div>
             </Row>
           </Col>
-          <Col xs="12" sm="5">
-            img
+          <Col xs="12" sm="7" className="r-panel">
+            <Image src={bot} width={850}/>
           </Col>
         </Row>
+      </>
       );
     }
 }

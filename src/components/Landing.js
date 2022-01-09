@@ -2,7 +2,6 @@
 import React from 'react';
 
 // Components
-import { Container } from 'react-bootstrap';
 import Header from './Header';
 import Banner from './Banner';
 
@@ -17,10 +16,10 @@ class Landing extends React.Component {
     render() {
 
       return (
-        <Container>
+        <>
           <Header />
           <Banner />
-        </Container>
+        </>
       );
     }
 }

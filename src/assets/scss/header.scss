@@ -10,17 +10,16 @@
 
   .container{
 
-    .collapsing,.collapse{
+    .collapsing,.collapse.show{
       background: linear-gradient(180deg, #343a40, #424242);
       margin: 5px;
-      padding: 15px 5px;
+      padding: 0 5px;
     }
 
     #basic-navbar-nav{
       font-family: Orbitron;
       font-size: .8rem;
       text-transform: uppercase;
-      position: absolute;
       right: -5px;
       top: 70%;
 
@@ -47,7 +46,7 @@
 
         .btn-connect{
           position: relative;
-          background: url('../img//button-bg.png'),linear-gradient( 135deg, transparent 8px, #ff679e 5%,#F4246F 94%, transparent 10%);
+          background: url('../img/button-bg.png'),linear-gradient( 135deg, transparent 8px, #ff679e 5%,#F4246F 94%, transparent 10%);
           text-transform: uppercase;
           border: none;
           border-radius: 0;
