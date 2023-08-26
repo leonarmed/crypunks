@@ -1,8 +1,16 @@
-<img width="400px" src="https://res.cloudinary.com/testgbc/image/upload/w_1000,c_fill,r_100/v1693071682/Github%20Readme/Crypunks%20Desktop.png" alt="Crypunks Desktop"  />
+## Demo
 
-<img width="400px" src="https://res.cloudinary.com/testgbc/image/upload/w_1000,c_fill,r_100/v1693071682/Github%20Readme/Crypunks%20Mobile.png" alt="Crypunks Mobile"  />
+<div align="center">
+<img align="center" width="400px" src="https://res.cloudinary.com/testgbc/image/upload/w_1000,c_fill,r_100/v1693071682/Github%20Readme/Crypunks%20Desktop.png" alt="Crypunks Desktop"  />
 
-# Idea for Landing Page of NFT Project
+<img align="center" width="400px" src="https://res.cloudinary.com/testgbc/image/upload/w_1000,c_fill,r_100/v1693071682/Github%20Readme/Crypunks%20Mobile.png" alt="Crypunks Mobile"  />
+</div>
+
+<br/><br/>
+
+<p>
+
+## Idea for Landing Page of NFT Project
 
 This project was developed with React JS, SASS
 
@@ -42,4 +50,6 @@ You don't have to ever use `eject`. The curated feature set is suitable for smal
 
 ### Deployment
 
-### `npm run build` fails to minify
+### `npm run build`
+
+</p>
