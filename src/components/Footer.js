@@ -33,7 +33,7 @@ class Header extends React.Component {
               </Row>
             </Col>
             <Col xs="5" sm="3" className="text-right">
-              Next section
+
             </Col>
           </Row>
         </div>
